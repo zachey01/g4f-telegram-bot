@@ -1,0 +1,18 @@
+{
+  "name": "g4f-tg",
+  "module": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/bot.js",
+    "start:node": "node src/bot.js",
+    "start:bun": "bun run src/bot.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "g4f": "^1.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7"
+  }
+}
